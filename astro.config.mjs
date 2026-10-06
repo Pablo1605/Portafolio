@@ -10,6 +10,6 @@ export default defineConfig({
   },
   
   site: 'https://pablo1605.github.io',
-  base: '/Portfolio',
+  base: '/Portafolio',
   integrations: [sitemap(), react()]
 });
