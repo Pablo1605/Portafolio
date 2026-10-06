@@ -7,6 +7,7 @@ import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 import { projectItems } from "@/data/portfolio";
 import { getContent } from "@/lib/getContent";
+import { withBase } from "@/lib/site";
 
 const projectsEyebrowDefault = "Proyectos destacados Tus proyectos";
 ---
@@ -64,7 +65,9 @@ const projectsEyebrowDefault = "Proyectos destacados Tus proyectos";
                 {getContent(`projects.${project.slug}.category`, project.category)}
               </Text>
             </div>
-            <PortfolioMediaLink href={`/projeto/${project.slug}`}>
+            <PortfolioMediaLink
+              href={withBase(`projeto/${project.slug}/`)}
+            >
               <EditableImage
                 imageKey={`projects.${project.slug}.image`}
                 width={1200}

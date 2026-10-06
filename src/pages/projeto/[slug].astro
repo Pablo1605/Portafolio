@@ -2,6 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import CaseDetail from "@/components/landing/CaseDetail.astro";
 import { getProjectItem, projectItems } from "@/data/portfolio";
+import { withBase } from "@/lib/site";
 
 export function getStaticPaths() {
   return projectItems.map((item) => ({
@@ -21,7 +22,7 @@ if (!item) {
   <CaseDetail
     item={item}
     contentPrefix={`projects.${item.slug}`}
-    backHref="/#projects"
+    backHref={withBase("#projects")}
     backLabel="Volver a Proyectos"
     eyebrow="Sección"
   />
