@@ -1,5 +1,5 @@
 import rawOverrides from "@/data/content-overrides.json";
-import { withBase } from "@/lib/site";
+import { withBaseIfNeeded } from "@/lib/site";
 
 export type ContentOverrides = Record<string, string>;
 
@@ -16,10 +16,5 @@ export function getLinkHref(linkKey: string, fallback: string): string {
 export function getImageSrc(imageKey: string): string | undefined {
   const src = contentOverrides[`image.${imageKey}`];
 
-  if (!src || !src.startsWith("/") || src.startsWith("//")) {
-    return src;
-  }
-
-  const base = withBase("");
-  return src.startsWith(base) ? src : withBase(src);
+  return src ? withBaseIfNeeded(src) : undefined;
 }

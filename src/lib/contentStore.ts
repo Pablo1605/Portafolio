@@ -1,3 +1,5 @@
+import { withBaseIfNeeded } from "@/lib/site";
+
 export const CONTENT_STORAGE_KEY = "portfolio-content-overrides";
 
 export type ContentOverrides = Record<string, string>;
@@ -174,7 +176,7 @@ function applyImageOverride(imageKey: string, value: string) {
   document
     .querySelectorAll<HTMLImageElement>(`[data-editable-image="${imageKey}"]`)
     .forEach((image) => {
-      image.src = value;
+      image.src = withBaseIfNeeded(value);
     });
 }
 
