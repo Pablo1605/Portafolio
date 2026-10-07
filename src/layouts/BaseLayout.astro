@@ -8,8 +8,6 @@ import Navigation from "@/components/global/Navigation.astro";
 import PageLoader from "@/components/global/PageLoader.astro";
 import ScrollAnimations from "@/components/global/ScrollAnimations.astro";
 import CustomCursor from "@/components/global/CustomCursor";
-import EditModeButton from "@/components/global/EditModeButton";
-import EditLinkModal from "@/components/global/EditLinkModal";
 import ApplyContentOverrides from "@/components/global/ApplyContentOverrides.astro";
 ---
 
@@ -31,7 +29,5 @@ import ApplyContentOverrides from "@/components/global/ApplyContentOverrides.ast
       <Footer />
       <div aria-hidden="true" class="h-[12vh]"></div>
     </div>
-    <EditModeButton client:load/>
-    <EditLinkModal client:load/>
   </body>
 </html>
