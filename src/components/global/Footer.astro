@@ -9,13 +9,13 @@ import { getContent } from "@/lib/getContent";
 
 const links = [
   { href: "#_", text: "LinkedIn", key: "footer.linkedin" },
-  { href: "#_", text: "Arena", key: "footer.arena" },
   { href: "#_", text: "GitHub", key: "footer.github" },
+  { href: "#_", text: "Gmail", key: "footer.gmail" },
 ];
 const year = new Date().getFullYear();
 ---
 
-<footer class="py-6">
+<footer id="footer" class="py-6">
   <Wrapper variant="standard" class="py-2">
     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 items-start">
       <div

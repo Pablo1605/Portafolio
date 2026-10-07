@@ -2,7 +2,7 @@
   "nav.logo": "Pablo Ramírez",
   "nav.location": "Argentina",
   "nav.role": "Desarrollador",
-  "nav.contact": "",
+  "nav.contact": "Contactame",
   "intro.text": "Pablo Ramírez",
   "sections.projects.eyebrow": "Proyectos destacados Tus proyectos",
   "sections.projects.title": "Proyectos",
@@ -25,8 +25,8 @@
   "education.1.description": "Formación continua orientada al desarrollo de aplicaciones web Full Stack, con especial interés en React, TypeScript, Java y Spring Boot. He profundizado también en autenticación y autorización con Spring Security y JWT, gestión de estado en aplicaciones React y bases de datos como PostgreSQL y MongoDB, aplicando estos conocimientos principalmente mediante proyectos personales.",
   "education.1.category": "FORMACIÓN COMPLEMENTARIA",
   "footer.linkedin": "LinkedIn",
-  "footer.arena": "",
   "footer.github": "GitHub",
+  "footer.gmail": "pabloram1605@gmail.com",
   "sections.technologies.title": "Tecnologías",
   "technologies.frontend.title": "Frontend",
   "technologies.frontend.content": "HTML\nCSS\nJavaScript\nTypeScript\nReact\nVite\nZustand",
@@ -97,5 +97,7 @@
   "link.projects.projeto-1.github": "https://github.com/Pablo1605/Cashfy",
   "link.projects.projeto-2.github": "https://github.com/Pablo1605/Stayly",
   "link.projects.projeto-1.app": "https://cashfy-beta.vercel.app/",
-  "link.projects.projeto-2.app": "https://stayly-psi.vercel.app/"
+  "link.projects.projeto-2.app": "https://stayly-psi.vercel.app/",
+  "link.footer.gmail": "mailto:pabloram1605@gmail.com",
+  "link.nav.contact": "#footer"
 }
