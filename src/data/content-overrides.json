@@ -29,7 +29,7 @@
   "footer.gmail": "pabloram1605@gmail.com",
   "sections.technologies.title": "Tecnologías",
   "technologies.frontend.title": "Frontend",
-  "technologies.frontend.content": "HTML\nCSS\nJavaScript\nTypeScript\nReact\nVite\nZustand",
+  "technologies.frontend.content": "HTML\nCSS3\nTailwind CSS\nJavaScript\nTypeScript\nReact\nNext.js\nVite\nZustand",
   "technologies.backend.title": "Backend",
   "technologies.backend.content": "Java\nSpring Boot\nSpring Security\nNode.js",
   "technologies.databases.title": "Databases",
