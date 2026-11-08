@@ -31,7 +31,7 @@
   "technologies.frontend.title": "Frontend",
   "technologies.frontend.content": "HTML\nCSS3\nTailwind CSS\nJavaScript\nTypeScript\nReact\nNext.js\nVite\nZustand",
   "technologies.backend.title": "Backend",
-  "technologies.backend.content": "Java\nSpring Boot\nSpring Security\nNode.js",
+  "technologies.backend.content": "Java\nSpring Boot\nSpring Security\nJWT\nNode.js",
   "technologies.databases.title": "Databases",
   "technologies.databases.content": "PostgreSQL\nMongoDB",
   "technologies.tools.title": "Herramientas",
